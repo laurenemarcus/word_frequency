@@ -1,1 +1,27 @@
-this is the form
+<h1>Word Frequency Calculator</h1>
+<p>Count the number of times a word appears in a block of text</p>
+<p>Partial matches will apear</p>
+<p>There are many reasons to check word frequency, some reasons are:</p>
+<ul>
+  <li>To clue you into the writing style of the author</li>
+  <li>To find word overuse</li>
+  <li>To indicate the robustness of the writer's vocabulary</li>
+  <li>To pull out major points and topics</li>
+  <li>To understand the theme of the piece</li>
+</ul>
+
+
+<form action='/results' method='get'>
+  <div class="form-group">
+    <label for="word">Single Word:</label>
+    <input id="word" name="word" class="form-control" type="text">
+    <label for="text_block">Text  Block:</label>
+    <input id="text_block" name="text_block" class="form-control" type="text">
+  </div>
+  <div class ="button">
+    <button type="submit" class="btn btn-primary">Count</button>
+  </div>
+</form>
+
+
+<p id="thesaurus">A thesaurus is your friend!</p>

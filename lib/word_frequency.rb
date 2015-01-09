@@ -3,7 +3,7 @@ class String
     count_of_word = 0
     array_of_words = self.downcase.split(' ')
     array_of_words.each() do |test|
-      if test.include?(word) == true
+      if test == word
         count_of_word += 1
       end
     end

@@ -1,0 +1,13 @@
+body {
+  #background-image: url("http://www.wordspin.dk/files/2011/08/Random_words.jpg");
+  #filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC666867,endColorstr=#CC666867)
+}
+
+
+h1 {
+  text-align: center;
+}
+
+#thesaurus {
+  text-align: center;
+}
