@@ -1,11 +1,30 @@
 body {
-  #background-image: url("http://www.wordspin.dk/files/2011/08/Random_words.jpg");
-  #filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC666867,endColorstr=#CC666867)
+  background-image: url("http://www.wordspin.dk/files/2011/08/Random_words.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
+.faded {
+  background:#CCCCCC;
+  background:rgba(500,500,500,0.8);
+  margin: 12px;
+  padding: 12px;
+  border-radius: 12px
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+html {
+  #margin: 20px;
+  #border-radius: 25px;
+  #border: 3px solid #FFFFFF;
+
+
+}
 
 h1 {
   text-align: center;
+  text-shadow: 2px 2px 8px #999999;
 }
 
 #thesaurus {
