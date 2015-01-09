@@ -2,7 +2,6 @@ body {
   background-image: url("http://www.wordspin.dk/files/2011/08/Random_words.jpg");
   background-repeat: no-repeat;
   background-size: 1000px 500px;
-
 }
 
 .faded {
@@ -22,12 +21,9 @@ html {
   #margin: 20px;
   #border-radius: 25px;
   #border: 3px solid #66FF33;
-
-
 }
 
 h1 {
-  /*text-align: center;*/
   text-shadow: 2px 2px 8px #999999;
 }
 
