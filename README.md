@@ -10,13 +10,16 @@ Ruby v 2.2.0
 INSTALLATION
 ------------
 Run the following command to install bundle:
-  gem install bundle
+
+  `gem install bundle`
 
 Run the following command to install all required gems:
-  bundle
+
+  `bundle`
 
 Run the following command to install rspec:
-  gem install rspec
+
+  `gem install rspec`
 
 KNOWN BUGS
 ---------
