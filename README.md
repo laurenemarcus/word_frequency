@@ -9,21 +9,29 @@ Ruby v 2.2.0
 
 INSTALLATION
 ------------
-Run the following command to install bundle:
+Run the following command to install bundler:
 
-  `gem install bundle`
+  `$ gem install bundler`
 
 Run the following command to install all required gems:
 
-  `bundle`
+  `$ bundle`
 
 Run the following command to install rspec:
 
-  `gem install rspec`
+  `$ gem install rspec`
+
+Run the following command to start the Sinatra server:
+
+  `$ ruby app.rb`
+
+Go to the follow page to launch the app in your browser:
+
+  `localhost:4567/word_frequency`
 
 KNOWN BUGS
 ---------
-There are no known bugs at this moment.
+Doesn't validate for numbers and special characters.
 
 AUTHOR
 -------
